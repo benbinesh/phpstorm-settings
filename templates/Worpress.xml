@@ -1,0 +1,8 @@
+<templateSet group="Worpress">
+  <template name="wpqry" value="//get data &#10;$args = array(&#10;    'post_status' =&gt; 'published',&#10;    'post_type'   =&gt; '$POSTYPE$'&#10;);&#10;$query= new WP_Query( $args );&#10;if($query-&gt;have_post()):&#10;    while($query-&gt;have_post): $query-&gt;post();&#10;        the_title();&#10;        the_content();&#10;    endwhile;&#10;endif;" shortcut="TAB" description="Add Custom Wp Query" toReformat="false" toShortenFQNames="true">
+    <variable name="POSTYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
