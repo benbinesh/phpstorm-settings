@@ -8,7 +8,6 @@
       <mapping pattern="source" type="PLAIN_TEXT" />
       <mapping pattern=".gitignore 1" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping ext="bk" type="PLAIN_TEXT" />
       <mapping ext="flag" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
