@@ -13,6 +13,7 @@
       <mapping ext="bk" type="PLAIN_TEXT" />
       <mapping ext="sample" type="PLAIN_TEXT" />
       <mapping ext="flag" type="PLAIN_TEXT" />
+      <mapping ext="bkk" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="mo" type="PLAIN_TEXT" />
       <removed_mapping pattern=".editorconfig" approved="true" type="EditorConfig" />
